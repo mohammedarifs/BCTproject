@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-26T18:12:59.929Z",
+        "line": 4,
+        "name": "Successful Booking a trip with BCT application",
+        "description": "",
+        "id": "booking-a-trip-on-bct-application;successful-booking-a-trip-with-bct-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2502000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefination.Stepdefination.Close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14476000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch the \"Booking page on BCT application\" on browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Booking page on BCT application",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefination.Stepdefination.i_launch_the_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 285000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Select the \"today\" date for trip on calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "today",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefination.Stepdefination.I_Select_the_date_for_trip_on_calendar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"FullName\" as \"SamSon\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FullName",
+                  "offset": 9
+                },
+                {
+                  "val": "SamSon",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefination.Stepdefination.I_enter_Text_in_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-26T18:13:17.509Z",
+        "line": 23,
+        "name": "Booking a trip with invalid credit card details on BCT application",
+        "description": "",
+        "id": "booking-a-trip-on-bct-application;booking-a-trip-with-invalid-credit-card-details-on-bct-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2098000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefination.Stepdefination.Close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27266000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I launch the \"Booking page on BCT application\" on browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Booking page on BCT application",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefination.Stepdefination.i_launch_the_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Select the \"today\" date for trip on calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "today",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdefination.Stepdefination.I_Select_the_date_for_trip_on_calendar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter \"FullName\" as \"SamSon\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FullName",
+                  "offset": 9
+                },
+                {
+                  "val": "SamSon",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefination.Stepdefination.I_enter_Text_in_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter \"Email\" as \"Samson@gmail.com\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 9
+                },
+                {
+                  "val": "Samson@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Stepdefination.Stepdefination.I_enter_Text_in_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Booking a trip on BCT application",
+    "description": "",
+    "id": "booking-a-trip-on-bct-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/BookingATrip.feature",
+    "tags": []
+  }
+]

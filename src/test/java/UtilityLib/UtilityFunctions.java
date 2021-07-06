@@ -25,7 +25,9 @@ public class UtilityFunctions {
 
 	WebDriver driver;
 	String A=null;
+
 	String C=A;
+
 	@FindBy(xpath="(//*[contains(@class,'state-availability')]/a)[1]") public WebElement Todaydate;
 	@FindBy(id="customerName") public WebElement FullName;
 	@FindBy(id="customerEmail") public WebElement Email;
